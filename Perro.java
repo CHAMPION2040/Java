@@ -8,11 +8,10 @@ public class Perro {
 	private String nombre;
 	private String nombreDuenio;
 	private int edad;
-	
-	
-	//Constructor por defecto
+
+
     public Perro() {}
-    
+
 	public Perro(String raza, String tamanio, double peso, String nombre, String nombreDuenio, int edad) {
 		this.raza = raza;
 		this.tamanio = tamanio;
@@ -21,29 +20,30 @@ public class Perro {
 		this.nombreDuenio = nombreDuenio;
 		this.edad = edad;
 	}
-	
+
 	public Perro(String raza, String nombre, int edad, String nombreDuenio) {
 		this.raza = raza;
 		this.nombre = nombre;
 		this.nombreDuenio = nombreDuenio;
 		this.edad = edad;
 	}
-	
+
 	public Perro(String raza, String nombre, double peso, String nombreDuenio) {
 		this.raza = raza;
 		this.nombre = nombre;
 		this.nombreDuenio = nombreDuenio;
 		this.peso = peso;
 	}
-	
+
 	public Perro(String raza, String nombre, String nombreDuenio) {
 		this.raza = raza;
 		this.nombre = nombre;
 		this.nombreDuenio = nombreDuenio;
-	
+
 	}
-	
-	//Métodos getters y setters
+
+
+
 	public String getRaza() {
 		return raza;
 	}
@@ -80,17 +80,19 @@ public class Perro {
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
-	
-	//Método / ¿Que hace?
+
+	//Métodos / ¿Que hace?
 	public void ladrar() {
 		System.out.println("Me llamo: " + this.nombre + " mi dueño es: " + this.nombreDuenio +  " y Estoy ladrando: gua gua");
 	}
 
+	
+	
 	@Override
 	public String toString() {
-		return "Nombre=" + nombre + "raza=" + raza + ", tamaño=" + tamanio + ", peso=" + peso + ", nombre=" + nombre
+		return "Nombre=" + nombre +" [raza=" + raza + ", tamaño=" + tamanio + ", peso=" + peso 
 				+ ", nombreDuenio=" + nombreDuenio + ", edad=" + edad + "]";
 	}
-	
-	
 }
+
+

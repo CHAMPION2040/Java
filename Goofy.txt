@@ -1,0 +1,15 @@
+---- Datos Perro -----
+Nombre=Goofy [raza=pastor aleman, tamaño=null, peso=0.0, nombreDuenio=Blanca, edad=6]
+------------
+Vacuna : moquillo
+Fecha : 5-mayo-2023
+------------
+Vacuna : lyme
+Fecha : 5-noviembre-2024
+------------
+Vacuna : parvovirus
+Fecha : 5-junio-2024
+------------
+Vacuna : rabia
+Fecha : 5-enero-2022
+------------
